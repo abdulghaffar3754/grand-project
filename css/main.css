@@ -1,0 +1,120 @@
+.user-nav {
+  width: 100%;
+  background-color: #0066b3;
+  display: flex;
+  align-items: center;
+  justify-content: space-between; }
+  .user-nav_icon-box {
+    display: flex;
+    align-items: center;
+    flex: 0 0 50%;
+    margin: 2rem 7rem; }
+  .user-nav_icon1 {
+    height: 1.5rem;
+    width: 1.2rem;
+    fill: white;
+    color: white; }
+  .user-nav_icon2 {
+    height: 1.5rem;
+    width: 1.2rem;
+    fill: white;
+    color: white; }
+  .user-nav_notification1 {
+    font-size: 1.5rem;
+    color: white;
+    padding-left: 0.5rem;
+    padding-right: 5rem; }
+  .user-nav_notification2 {
+    font-size: 1.5rem;
+    color: white;
+    padding-left: 0.5rem; }
+  .user-nav_links {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+    flex: 1; }
+    .user-nav_links > a {
+      color: white;
+      text-decoration: none;
+      list-style: none; }
+    .user-nav_links > p {
+      color: white;
+      font-size: 1.5rem;
+      padding: 0 1rem; }
+
+.nave-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex: 0 0 20%;
+  position: absolute;
+  top: 1.5rem;
+  left: 10rem; }
+  .nave-bar_list {
+    flex: 1;
+    list-style: none;
+    margin-left: 20rem; }
+  .nave-bar_items {
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    margin-left: 10rem;
+    text-align: center; }
+  .nave-bar_text {
+    text-align: center;
+    justify-content: center;
+    list-style: none;
+    text-decoration: none;
+    padding-left: 2rem; }
+
+.main-view {
+  height: 100rem;
+  width: 100%;
+  background-image: url(../img/b1.jpg);
+  animation: educator 10s 6s infinite; }
+
+@keyframes educator {
+  0% {
+    background-image: url(../img/b2.jpg); }
+  33% {
+    background-image: url(../img/b3.jpg); }
+  66% {
+    background-image: url(../img/b4.jpg); }
+  100% {
+    background-image: url(../img/b1.jpg); } }
+
+.primary {
+  width: 100%; }
+
+.navebar {
+  height: 10rem;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid red;
+  position: relative; }
+
+.main {
+  width: 100%;
+  height: 50rem;
+  border: 1px solid blue; }
+
+* {
+  margin: 0;
+  padding: 0; }
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit; }
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%; }
+
+body {
+  overflow: hidden;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 400;
+  line-height: 1.6; }

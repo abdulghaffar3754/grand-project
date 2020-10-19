@@ -1,0 +1,55 @@
+.user-nav {
+  background-color: #0066b3;
+}
+.user-nav_icon-box {
+  padding: 2rem 7rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.user-nav_icon {
+  height: 2.5rem;
+  width: 2.5rem;
+  fill: white;
+  color: white;
+}
+.user-nav_notification {
+  font-size: 1.5rem;
+  color: white;
+}
+.user-nav_links {
+  display: flex;
+  align-items: center;
+  font-size: 1.5rem;
+}
+.user-nav_links > a {
+  color: white;
+  text-decoration: none;
+  list-style: none;
+}
+.user-nav_links > a > p {
+  color: white;
+}
+
+.nave-bar {
+  display: flex;
+  align-items: center;
+}
+.nave-bar_logo {
+  height: 2.5rem;
+  padding: 2rem 5rem;
+  flex: 0 0 20%;
+}
+.nave-bar_list {
+  flex: 1;
+}
+.nave-bar_items {
+  font-size: inherit;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+.nave-bar_text {
+  text-transform: uppercase;
+  text-decoration: none;
+  text-align: center;
+}
